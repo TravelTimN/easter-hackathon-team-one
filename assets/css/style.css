@@ -48,7 +48,7 @@ h3 {
 /* Containers */
 
 .container-wrapper--image {
-    background: url('assets/images/eater-egg-egg.jpg') no-repeat;
+    background: url('../assets/images/eater-egg-egg.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -75,7 +75,7 @@ h3 {
 .callout-container {
     height: 100vh;
 
-    background: url('assets/images/background-image.jpg') no-repeat;
+    background: url('../assets/images/background-image.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
