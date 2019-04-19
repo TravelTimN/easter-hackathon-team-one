@@ -16,7 +16,7 @@ $(document).ready(function () {
     
     var eggMarker = L.marker([53.356039, -6.337732]).addTo(map).bindPopup("<h3>Easter Egg Hunt!</h3><strong>DATE: </strong>Sunday, 21 April 2019<br><strong>TIME: </strong>12:00 - 14:00<br><strong>WHERE: </strong>Phoenix Park<br><strong>WHO: </strong>Children of all ages!").bindTooltip("click to find out more!");
     var eggIcon = new L.Icon({
-        iconUrl: "../assets/images/egg-hunt-marker.png",
+        iconUrl: "../images/egg-hunt-marker.png",
         iconSize: [100, 100],
         iconAnchor: [25, 50]
     });
