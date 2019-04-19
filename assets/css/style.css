@@ -1,7 +1,201 @@
-/*COLORS:
-Blue: #ABF6F9
-Green: #9EDB50
-Orange: #FEA31F
-Pink: #FFB7C3
-White: #FFFFFF
-*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+   text-align: center; 
+   color: #fff;
+}
+
+h3 {
+   text-align: center; 
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #ABF6F9;
+    color: #000;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/* Containers */
+
+.container-wrapper--image {
+    background: url('/assets/images/eater-egg-egg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+    color: white;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('/assets/images/background-image.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.about-container {
+    background-color: #FFB7C3;
+    color: #000;
+    text-align: center;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--orange {
+    color: #fff;
+    background-color: #fea31f;
+    border-color: #FEA31F;
+    color: #000;
+}
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #000;
+    border-color: #000;
+    color: #FEA31F;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #FEA31F;
+}
+
+.block-divider--orange {
+    background-color: #FEA31F;
+}
+
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Page Headers */
+
+.page-header {
+    padding-top: 5px;
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* event */
+
+.event {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.event i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.event .btn {
+    background-color: black;
+    border-color: #9EDB50;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #9EDB50;
+}
+
+.event .btn:hover,
+.event .btn:active,
+.event .btn:focus,
+.event .btn:active:focus {
+    background-color: #9EDB50;
+    border-color: black;
+    color: black;
+}
+
+.page-footer {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    top:0;
+    width: 100%;
+    line-height: 60px;
+    background-color: #181818;
+    color: white;
+    text-decoration: none;
+}
